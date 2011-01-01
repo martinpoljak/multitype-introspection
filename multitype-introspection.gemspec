@@ -14,6 +14,16 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "LICENSE.txt"
   ]
+  s.files = [
+    ".document",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
+    "Rakefile",
+    "VERSION",
+    "lib/multitype-introspection.rb",
+    "multitype-introspection.gemspec"
+  ]
   s.homepage = %q{http://github.com/martinkozak/multitype-introspection}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
