@@ -12,13 +12,15 @@ Gem::Specification.new do |s|
   s.date = %q{2011-01-01}
   s.email = %q{martinkozak@martinkozak.net}
   s.extra_rdoc_files = [
-    "LICENSE.txt"
+    "LICENSE.txt",
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/multitype-introspection.rb",
