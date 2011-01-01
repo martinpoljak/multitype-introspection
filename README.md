@@ -6,7 +6,7 @@ the [Object][1] class with following methods:
 
 * [#kind_of_any?][2]
 * [#is_a_any?][3]
-* [#instance_of_any][4]
+* [#instance_of_any?][4]
 
 Aim of these is probably evident -- they are equivalent of appropriate
 methods without `any` suffix, but for multiple classes. An example of
