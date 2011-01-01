@@ -17,7 +17,7 @@ class Object
     end
     
     def kind_of_any?(classes)
-        if classes.kind_of? Array
+        if not classes.kind_of? Array
             raise Exception::new("Array expected.")
         end
         
