@@ -7,11 +7,11 @@
 class Object
 
     ##
-    # Returns <tt>true</tt> if obj is an instance of the given classes. 
+    # Returns +true+ if object is an instance of the given classes. 
     #
-    # @see Object#kind_of_any?
+    # @see #kind_of_any?
     # @param [Array] classes array of class objects
-    # @return [Boolean] 'true' if it is, 'false' in otherwise
+    # @return [Boolean] +true+ if it is, +false+ in otherwise
     #
     
     def instance_of_any?(classes)
@@ -27,14 +27,14 @@ class Object
         
         return false
     end
- 
+
     ##
-    # Returns <tt>true</tt> if one of classes are the class of obj, or 
-    # if one of classes are one of the superclasses of obj or modules 
-    # included in obj.
+    # Returns +true+ if one of classes are the class of object, 
+    # or if one of classes are one of the superclasses of object or 
+    # modules included in object.
     #
     # @param [Array] classes array of class objects
-    # @return [Boolean] 'true' if it is, 'false' in otherwise
+    # @return [Boolean] +true+ if it is, +false+ in otherwise
     #
     
     def kind_of_any?(classes)
