@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Allows multiple type introspection. Extends the Object class with #kind_of_any? and other appropriate methods of this family.}
+  s.summary = %q{Allows multiple type introspection. Currenty deprecated in favour to Hash Utils.}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
